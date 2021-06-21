@@ -1,6 +1,6 @@
 # VREnabler ML
 
-This is a Melon Loader plugin which enabled VR on Unity games that realy on the old VR Module (2017/2018).
+This is a Melon Loader plugin which enables VR in Unity games that rely on the old VR Module (2017/2018).
 
 Plugins folder contents are omitted. The class database file isn't distributed with this repo but is accessible [here](https://github.com/nesrak1/AssetsTools.NET/releases)
 
