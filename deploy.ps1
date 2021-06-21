@@ -15,4 +15,4 @@ Copy-Item -Path ($BuildDir + '/AssetsTools.NET.dll') -Destination ($PluginsDir +
 
 #Copy dependencies
 Copy-Item ('./External/classdata.tpk') -Destination ($PluginsDir + '/VREnabler/classdata.tpk')
-Copy-Item ('./External/MelonPreferences.cfg') -Destination ($DeployDir + '/UserData/MelonPreferences.cfg')
+Copy-Item ('./MelonPreferences.cfg') -Destination ($DeployDir + '/UserData/MelonPreferences.cfg')
