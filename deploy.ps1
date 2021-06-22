@@ -5,7 +5,7 @@ $BuildDir = './bin/Release/net35'
 $DeployDir = './Deploy'
 $PluginsDir = $DeployDir + '/Plugins'
 
-Remove-Item $DeployDir -Force
+Remove-Item -Force -Recurse $DeployDir
 mkdir $DeployDir
 mkdir $PluginsDir
 mkdir ($PluginsDir + '/VREnabler')
